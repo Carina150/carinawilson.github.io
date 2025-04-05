@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #003366;
+}
+
+header {
+    background: lightpink;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+. logo img {
+    height: 30px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('img-20250205-wa0001.jpg') no-repeat center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.btn {
+    background: lightpink;
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#services, #gallery, #contact {
+    padding: 40px;
+}
+
+.gallery img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ footer{ 
+     background: #003366;
+     color:white;
+     padding: 20px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+        padding: 10px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+}
